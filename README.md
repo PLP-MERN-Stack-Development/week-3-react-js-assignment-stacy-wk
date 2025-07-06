@@ -1,10 +1,10 @@
-# 📝 Task Manager App
+# Task Manager App
 
 A responsive React application built with Vite and Tailwind CSS. This project demonstrates modern React component architecture, state management with hooks, context for theme switching (light/dark mode), persistent storage, and API integration.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Add, complete, and delete tasks**
 - **Filter tasks** (All, Active, Completed)
@@ -17,7 +17,7 @@ A responsive React application built with Vite and Tailwind CSS. This project de
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 task-manager/
@@ -38,7 +38,7 @@ task-manager/
 
 ---
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository:**
    ```sh
@@ -61,14 +61,14 @@ task-manager/
 
 ---
 
-## 🌗 Theme Switcher
+## Theme Switcher
 
 - Toggle between light and dark mode using the theme switcher in the Navbar.
 - Theme preference is saved and applied automatically.
 
 ---
 
-## 📚 Assignment Requirements
+## Assignment Requirements
 
 - [x] Vite + React + Tailwind CSS setup
 - [x] Component architecture (Button, Card, Navbar, Footer, Layout)
@@ -79,5 +79,3 @@ task-manager/
 - [x] Theme switcher (light/dark mode)
 
 ---
-
-## 🔗 Live Demo
