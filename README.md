@@ -1,71 +1,83 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19808994&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 📝 Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive React application built with Vite and Tailwind CSS. This project demonstrates modern React component architecture, state management with hooks, context for theme switching (light/dark mode), persistent storage, and API integration.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Features
 
-## Getting Started
+- **Add, complete, and delete tasks**
+- **Filter tasks** (All, Active, Completed)
+- **Persistent tasks** using local storage
+- **Theme switcher** (light/dark mode) using React Context and Tailwind CSS
+- **Responsive design** for mobile, tablet, and desktop
+- **Reusable UI components**: Button, Card, Navbar, Footer
+- **API integration** (e.g., JSONPlaceholder posts)
+- **Pagination and search** for API data
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+---
+
+## 📦 Project Structure
+
+```
+task-manager/
+  ├── public/
+  ├── src/
+  │   ├── assets/
+  │   ├── components/
+  │   ├── context/
+  │   ├── pages/
+  │   ├── utils/
+  │   ├── App.jsx
+  │   ├── main.jsx
+  │   └── index.css
+  ├── index.html
+  ├── package.json
+  └── vite.config.js
+```
+
+---
+
+## 🛠️ Setup & Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-stacy-wk.git
+   cd task-manager
    ```
+
+2. **Install dependencies:**
+   ```sh
    npm install
    ```
-4. Start the development server:
-   ```
+
+3. **Start the development server:**
+   ```sh
    npm run dev
    ```
 
-## Files Included
+4. **Open your browser:**  
+   Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 🌗 Theme Switcher
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+- Toggle between light and dark mode using the theme switcher in the Navbar.
+- Theme preference is saved and applied automatically.
 
-## Project Structure
+---
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+## 📚 Assignment Requirements
 
-## Submission
+- [x] Vite + React + Tailwind CSS setup
+- [x] Component architecture (Button, Card, Navbar, Footer, Layout)
+- [x] State management with hooks and context
+- [x] Custom hook for local storage
+- [x] API integration with loading/error states
+- [x] Responsive and accessible UI
+- [x] Theme switcher (light/dark mode)
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+---
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 🔗 Live Demo
